@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>汽车新闻</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.2/??flexible_css.js,flexible.js">
+		
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+</head>
+<body>
+	<header>
+		<a href="">二手车</a>
+		<h1>汽车新闻</h1>
+		<a href="" class="home"></a>
+	</header>
+	<div id="app">
+		<keep-alive>
+			<router-view></router-view>
+		</keep-alive>
+	</div>
+	<footer>
+		<div class="loading">
+           加载中
+		</div>
+		<div class="return">
+			<a href="" class="re-top">
+				返回顶部
+			</a>
+		</div>
+		<div class="bot-nav">
+			<div class="subnav">
+				<div class="kuang">
+					<a href="" >首页</a>
+					<a href="" >新闻</a>
+					<a href="" >体育</a>
+					<a href="" >娱乐</a>
+					<a href="" >女人</a>
+					<a href="" >导航</a>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="kind">
+				<span>彩版</span>
+				<span>触版</span>
+				<span>PC版</span>
+				<span>客户端</span>
+			</div>
+			<p class="massage">留言-合作</p>
+			<p class="email">copyright@2013Sohu.com</p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+	<script type="text/javascript">
+		const list = { template: `
+			<ul class="list">
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+				<router-link to="/desc" tag='li' class="item">
+					<div class="icon-hot"></div>
+					<p class="title">最美自主车致尚XT竞争力分析</p>
+					<div class="info">
+						<span class="time">07-04 06:30</span>
+						<span class="author">搜狐汽车</span>
+					</div>
+				</router-link>
+			</ul>
+        ` }
+		const desc = { template: `
+			<div class="wrapper">
+				<h2 class="power">这是标题</h2>
+				<div class="subtitle">
+					<span class="time">2018-5-26</span>
+					<span class="author">搜狐汽车</span>
+				</div>
+				<img src="css/t.jpg" alt="" class="cover">
+				<p class="cover-info">介绍介绍介绍介绍介绍介绍介绍</p>
+				<section class="content">
+					这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容这里是内容
+				</section>
+				<router-link to="/" tag='a'>返回</router-link>
+			</div>
+		` }
+		const routes = [
+		  { path: '/', component: list },
+		  { path: '/desc', component: desc }
+		]
+		const router = new VueRouter({
+		  routes // (缩写) 相当于 routes: routes
+		})
+		const app = new Vue({
+		  router
+		}).$mount('#app')
+
+	</script>
+	
+</html>
