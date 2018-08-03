@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  data () {
+  datPa () {
     return {
       msg: 'Welcome to Your Vue.js App',
     }
