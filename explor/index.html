@@ -16,8 +16,8 @@
 			<nav class="clearfix hd-nav">
 				<div class="flt logo">logo</div>
 				<div class="frt btn-bar hide" id="btn">
-					<!-- <img src="./images/read.svg"> -->
 				</div>
+				<div class="sanjiao hide"></div>
 				<ul class="nav-list0 hide">
 					<li>
 						<a href="">
@@ -119,9 +119,6 @@
 					<i>June,11</i>
 				</li>
 			</ul>
-			<!-- <ul class="clearfix">
-				
-			</ul> -->
 		</div>
 		
 	</div>
@@ -143,7 +140,8 @@
         $(function(){            
             $("#btn").click(function(){
             	$(this).toggleClass("btn-bar0");
-            	$(".nav-list0").slideToggle("slow");           	
+            	$(".nav-list0").slideToggle("slow");
+            	$(".sanjiao").slideToggle("slow");           	
             })
         })
     </script>

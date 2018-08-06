@@ -67,19 +67,40 @@ table { border-spacing:0; border-collapse:collapse;}
 .nav-list li a:hover{
 	color: rgba(74,144,226,1);
 }
+.hd-nav{
+	position: relative;
+}
+.sanjiao{
+	position: absolute;
+	top:30px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 10px solid #fff;
+
+}
 .nav-list0{
 	position: absolute;
-	top: 42px;
-	width:320px;
+	top: 50px;
+	right: 0;
+	width:120px;
 	text-align: center; 
 	background: #fff;
 	line-height: 30px;
 	padding-top: 10px;
 	color:rgba(74,144,226,1);
 	z-index: 100;
+	border-radius: 4px;
+}
+.nav-list0 li:hover{
+		background:rgba(74,144,226,1);
+
 }
 .nav-list0 li a:hover{
-		color:rgba(74,144,226,1);
+		color:#fff;
 
 }
 .test-video{
